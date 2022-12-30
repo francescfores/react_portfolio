@@ -16,7 +16,7 @@ const ProjectsGrid = () => {
 	} = useContext(ProjectsContext);
 
 	return (
-		<section className="py-5 sm:py-10 mt-5 sm:mt-10">
+		<section className="py-5 pt-20">
 			<div className="text-center">
 				<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
 					Projects portfolio
@@ -25,7 +25,7 @@ const ProjectsGrid = () => {
 
 			<div className="mt-10 sm:mt-16">
 				<h3
-					className="font-general-regular 
+					className="font-general-regular
                         text-center text-secondary-dark
                         dark:text-ternary-light
                         text-md
@@ -64,12 +64,12 @@ const ProjectsGrid = () => {
 							onChange={(e) => {
 								setSearchProject(e.target.value);
 							}}
-							className="font-general-medium 
+							className="font-general-medium
                                 pl-3
                                 pr-1
                                 sm:px-4
                                 py-2
-                                border 
+                                border
                             border-gray-200
                                 dark:border-secondary-dark
                                 rounded-lg

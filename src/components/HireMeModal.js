@@ -26,7 +26,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 					<div className="modal max-w-md mx-5 xl:max-w-xl lg:max-w-xl md:max-w-xl bg-secondary-light dark:bg-primary-dark max-h-screen shadow-lg flex-row rounded-lg relative">
 						<div className="modal-header flex justify-between gap-10 p-5 border-b border-ternary-light dark:border-ternary-dark">
 							<h5 className=" text-primary-dark dark:text-primary-light text-xl">
-								What project are you looking for?
+								¿Qué proyecto estás buscando?
 							</h5>
 							<button
 								onClick={onClose}
@@ -49,7 +49,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										name="name"
 										type="text"
 										required=""
-										placeholder="Name"
+										placeholder="Nombre"
 										aria-label="Name"
 									/>
 								</div>
@@ -92,7 +92,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 										cols="14"
 										rows="6"
 										aria-label="Details"
-										placeholder="Project description"
+										placeholder="Descripción del proyecto"
 									></textarea>
 								</div>
 
@@ -111,7 +111,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 											focus:ring-1 focus:ring-indigo-900 duration-500"
 										aria-label="Submit Request"
 									>
-										<Button title="Send Request" />
+										<Button title="Enviar" />
 									</span>
 								</div>
 							</form>
@@ -127,7 +127,7 @@ const HireMeModal = ({ onClose, onRequest }) => {
 									focus:ring-1 focus:ring-indigo-900 duration-500"
 								aria-label="Close Modal"
 							>
-								<Button title="Close" />
+								<Button title="Cerrar" />
 							</span>
 						</div>
 					</div>

@@ -1,8 +1,11 @@
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import { FiArrowDownCircle } from 'react-icons/fi';
 import developerLight from '../../images/developer.svg';
-import developerDark from '../../images/developer-dark.svg';
+import developerDark from '../../images/undraw_programming_re_kg9v.svg';
 import { motion } from 'framer-motion';
+import { AwesomeButton } from 'react-awesome-button';
+import 'react-awesome-button/dist/styles.css';
+import '../../css/AwesomeButtonStyles.css';
 
 const AppBanner = () => {
 	const [activeTheme] = useThemeSwitcher();
@@ -25,7 +28,7 @@ const AppBanner = () => {
 					}}
 					className="font-general-semibold text-2xl lg:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 				>
-					Hi, Iam Stoman
+
 				</motion.h1>
 				<motion.p
 					initial={{ opacity: 0 }}
@@ -37,7 +40,7 @@ const AppBanner = () => {
 					}}
 					className="font-general-medium mt-4 text-lg md:text-xl lg:text-2xl xl:text-3xl text-center sm:text-left leading-normal text-gray-500 dark:text-gray-200"
 				>
-					A Full-Stack Developer & Design Enthusiast
+					Hola soy Fran <br/> un desarrollador Full Stack & entusiasta del diseño
 				</motion.p>
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -47,31 +50,34 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.3,
 					}}
-					className="flex justify-center sm:block"
+					className=" mt-10 flex justify-center sm:block"
 				>
+
 					<a
-						download="Stoman-Resume.pdf"
-						href="/files/Stoman-Resume.pdf"
-						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
-						aria-label="Download Resume"
+						download="cv.pdf"
+						href="/files/cv.pdf"
+						aria-label="Descargar CV"
 					>
-						<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
-						<span className="text-sm sm:text-lg font-general-medium duration-100">
-							Download CV
-						</span>
+						<AwesomeButton  aria-label="Hire Me Button" type="primary"
+										className="mt-10">
+							<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
+							Descargar CV
+						</AwesomeButton>
 					</a>
+
 				</motion.div>
 			</div>
 			<motion.div
 				initial={{ opacity: 0, y: -180 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
-				className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
+				className="ml-2 w-full sm:w-2/3 text-right  mt-8 sm:mt-0"
 			>
 				<img
 					src={
 						activeTheme === 'dark' ? developerLight : developerDark
 					}
+					className="ml-2 float-right"
 					alt="Developer"
 				/>
 			</motion.div>

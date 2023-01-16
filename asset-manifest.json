@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.529628bb.chunk.css",
-    "main.js": "/react_portfolio/static/js/main.a634b91a.chunk.js",
-    "main.js.map": "/react_portfolio/static/js/main.a634b91a.chunk.js.map",
+    "main.css": "/react_portfolio/static/css/main.91900981.chunk.css",
+    "main.js": "/react_portfolio/static/js/main.32392998.chunk.js",
+    "main.js.map": "/react_portfolio/static/js/main.32392998.chunk.js.map",
     "runtime-main.js": "/react_portfolio/static/js/runtime-main.99836cb4.js",
     "runtime-main.js.map": "/react_portfolio/static/js/runtime-main.99836cb4.js.map",
     "static/css/2.fe9c4a0d.chunk.css": "/react_portfolio/static/css/2.fe9c4a0d.chunk.css",
-    "static/js/2.c0cf960a.chunk.js": "/react_portfolio/static/js/2.c0cf960a.chunk.js",
-    "static/js/2.c0cf960a.chunk.js.map": "/react_portfolio/static/js/2.c0cf960a.chunk.js.map",
+    "static/js/2.c4ba2037.chunk.js": "/react_portfolio/static/js/2.c4ba2037.chunk.js",
+    "static/js/2.c4ba2037.chunk.js.map": "/react_portfolio/static/js/2.c4ba2037.chunk.js.map",
     "static/js/3.90727ac1.chunk.js": "/react_portfolio/static/js/3.90727ac1.chunk.js",
     "static/js/3.90727ac1.chunk.js.map": "/react_portfolio/static/js/3.90727ac1.chunk.js.map",
     "index.html": "/react_portfolio/index.html",
     "static/css/2.fe9c4a0d.chunk.css.map": "/react_portfolio/static/css/2.fe9c4a0d.chunk.css.map",
-    "static/css/main.529628bb.chunk.css.map": "/react_portfolio/static/css/main.529628bb.chunk.css.map",
-    "static/js/2.c0cf960a.chunk.js.LICENSE.txt": "/react_portfolio/static/js/2.c0cf960a.chunk.js.LICENSE.txt",
+    "static/css/main.91900981.chunk.css.map": "/react_portfolio/static/css/main.91900981.chunk.css.map",
+    "static/js/2.c4ba2037.chunk.js.LICENSE.txt": "/react_portfolio/static/js/2.c4ba2037.chunk.js.LICENSE.txt",
     "static/media/App.css": "/react_portfolio/static/media/develop_light2.0b9a4285.svg",
     "static/media/Laravel.d0cb2f2a.svg": "/react_portfolio/static/media/Laravel.d0cb2f2a.svg",
     "static/media/Npm-logo.3cad4cc6.svg": "/react_portfolio/static/media/Npm-logo.3cad4cc6.svg",
@@ -70,8 +70,8 @@
   "entrypoints": [
     "static/js/runtime-main.99836cb4.js",
     "static/css/2.fe9c4a0d.chunk.css",
-    "static/js/2.c0cf960a.chunk.js",
-    "static/css/main.529628bb.chunk.css",
-    "static/js/main.a634b91a.chunk.js"
+    "static/js/2.c4ba2037.chunk.js",
+    "static/css/main.91900981.chunk.css",
+    "static/js/main.32392998.chunk.js"
   ]
 }
